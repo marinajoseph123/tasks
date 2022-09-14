@@ -1,0 +1,23 @@
+{{>header}}
+{{>navbar}}
+<section class="container my-5">
+    <form method="post"> 
+        {{!-- post --}}
+           <input name="name" placeholder="please enter your name" class="form-control">
+        </div>
+        <div class="mb-3">
+            <input name="title" placeholder="please enter your title" class="form-control">
+        </div>
+        <div class="mb-3">
+            <input name="content" placeholder="please enter content" class="form-control">
+        </div>
+         <div class="mb-3" name="status">
+            <input name="status" type="checkbox">status
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary">Add User</button>
+        </div>
+    </form>
+</section>
+
+{{>footer}}
